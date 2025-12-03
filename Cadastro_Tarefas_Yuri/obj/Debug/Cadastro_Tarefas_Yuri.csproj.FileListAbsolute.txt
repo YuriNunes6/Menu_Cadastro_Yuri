@@ -1,0 +1,13 @@
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\bin\Debug\Cadastro_Tarefas_Yuri.exe.config
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\bin\Debug\Cadastro_Tarefas_Yuri.exe
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\bin\Debug\Cadastro_Tarefas_Yuri.pdb
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\obj\Debug\Cadastro_Tarefas_Yuri.csproj.AssemblyReference.cache
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\obj\Debug\Cadastro_Tarefas_Yuri.Properties.Resources.resources
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\obj\Debug\Cadastro_Tarefas_Yuri.Form1.resources
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\obj\Debug\Cadastro_Tarefas_Yuri.csproj.GenerateResource.cache
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\obj\Debug\Cadastro_Tarefas_Yuri.csproj.CoreCompileInputs.cache
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\obj\Debug\Cadastro_Tarefas_Yuri.exe
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\obj\Debug\Cadastro_Tarefas_Yuri.pdb
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\obj\Debug\Cadastro_Tarefas_Yuri.exe.config
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\obj\Debug\Cadastro_Tarefas_Yuri.FormMenu.resources
+C:\Users\leojo\source\repos\Cadastro_Tarefas_Yuri\Cadastro_Tarefas_Yuri\obj\Debug\Cadastro_Tarefas_Yuri.View.FormFuncionarios.resources
