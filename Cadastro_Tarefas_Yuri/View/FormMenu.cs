@@ -15,10 +15,11 @@ namespace Cadastro_Tarefas_Yuri
     {
         Form1 formCadastroTarefas = new Form1();
         FormFuncionarios formFuncionarios = new FormFuncionarios();
-        
         public FormMenu()
         {
             InitializeComponent();
+            pictureBox1.ImageLocation = "https://static.vecteezy.com/system/resources/previews/010/175/289/original/3d-rendering-of-cute-icon-illustration-profile-approved-png.png";
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void cadastroTarefasToolStripMenuItem_Click(object sender, EventArgs e)
@@ -32,6 +33,11 @@ namespace Cadastro_Tarefas_Yuri
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

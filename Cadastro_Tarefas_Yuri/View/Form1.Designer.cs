@@ -40,9 +40,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.opçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.telaInicialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cadastrarFuncionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboBoxFuncionarios = new System.Windows.Forms.ComboBox();
+            this.cadastrarFuncionariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTarefas)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -65,7 +63,7 @@
             "Concluída",
             "Em andamento",
             "Pendente"});
-            this.boxStatusTarefa.Location = new System.Drawing.Point(502, 102);
+            this.boxStatusTarefa.Location = new System.Drawing.Point(575, 102);
             this.boxStatusTarefa.Name = "boxStatusTarefa";
             this.boxStatusTarefa.Size = new System.Drawing.Size(121, 21);
             this.boxStatusTarefa.TabIndex = 1;
@@ -74,7 +72,7 @@
             // 
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(164, 86);
+            this.label1.Location = new System.Drawing.Point(237, 86);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(98, 17);
             this.label1.TabIndex = 2;
@@ -92,7 +90,7 @@
             // 
             // txtNomeTarefa
             // 
-            this.txtNomeTarefa.Location = new System.Drawing.Point(162, 103);
+            this.txtNomeTarefa.Location = new System.Drawing.Point(235, 103);
             this.txtNomeTarefa.Name = "txtNomeTarefa";
             this.txtNomeTarefa.Size = new System.Drawing.Size(100, 20);
             this.txtNomeTarefa.TabIndex = 4;
@@ -101,7 +99,7 @@
             // 
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(371, 86);
+            this.label2.Location = new System.Drawing.Point(433, 86);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 17);
             this.label2.TabIndex = 5;
@@ -109,7 +107,7 @@
             // 
             // dateTimeTarefa
             // 
-            this.dateTimeTarefa.Location = new System.Drawing.Point(280, 103);
+            this.dateTimeTarefa.Location = new System.Drawing.Point(353, 103);
             this.dateTimeTarefa.Name = "dateTimeTarefa";
             this.dateTimeTarefa.Size = new System.Drawing.Size(200, 20);
             this.dateTimeTarefa.TabIndex = 6;
@@ -118,7 +116,7 @@
             // 
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(539, 86);
+            this.label3.Location = new System.Drawing.Point(612, 86);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(48, 17);
             this.label3.TabIndex = 7;
@@ -150,7 +148,7 @@
             // 
             this.opçõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.telaInicialToolStripMenuItem,
-            this.cadastrarFuncionáriosToolStripMenuItem});
+            this.cadastrarFuncionariosToolStripMenuItem});
             this.opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
             this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.opçõesToolStripMenuItem.Text = "Opções";
@@ -160,32 +158,14 @@
             this.telaInicialToolStripMenuItem.Name = "telaInicialToolStripMenuItem";
             this.telaInicialToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.telaInicialToolStripMenuItem.Text = "Tela Inicial";
-            this.telaInicialToolStripMenuItem.Click += new System.EventHandler(this.telaInicialToolStripMenuItem_Click);
+            this.telaInicialToolStripMenuItem.Click += new System.EventHandler(this.telaInicialToolStripMenuItem_Click_1);
             // 
-            // cadastrarFuncionáriosToolStripMenuItem
+            // cadastrarFuncionariosToolStripMenuItem
             // 
-            this.cadastrarFuncionáriosToolStripMenuItem.Name = "cadastrarFuncionáriosToolStripMenuItem";
-            this.cadastrarFuncionáriosToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.cadastrarFuncionáriosToolStripMenuItem.Text = "Cadastrar funcionários";
-            this.cadastrarFuncionáriosToolStripMenuItem.Click += new System.EventHandler(this.cadastrarFuncionáriosToolStripMenuItem_Click);
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(638, 82);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(133, 17);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Nome do Funcionário";
-            // 
-            // comboBoxFuncionarios
-            // 
-            this.comboBoxFuncionarios.FormattingEnabled = true;
-            this.comboBoxFuncionarios.Location = new System.Drawing.Point(640, 101);
-            this.comboBoxFuncionarios.Name = "comboBoxFuncionarios";
-            this.comboBoxFuncionarios.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxFuncionarios.TabIndex = 11;
+            this.cadastrarFuncionariosToolStripMenuItem.Name = "cadastrarFuncionariosToolStripMenuItem";
+            this.cadastrarFuncionariosToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.cadastrarFuncionariosToolStripMenuItem.Text = "Cadastrar funcionários";
+            this.cadastrarFuncionariosToolStripMenuItem.Click += new System.EventHandler(this.cadastrarFuncionariosToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -193,8 +173,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(912, 450);
-            this.Controls.Add(this.comboBoxFuncionarios);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dateTimeTarefa);
@@ -205,7 +183,6 @@
             this.Controls.Add(this.boxStatusTarefa);
             this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -231,9 +208,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem opçõesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem telaInicialToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cadastrarFuncionáriosToolStripMenuItem;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBoxFuncionarios;
+        private System.Windows.Forms.ToolStripMenuItem cadastrarFuncionariosToolStripMenuItem;
     }
 }
 

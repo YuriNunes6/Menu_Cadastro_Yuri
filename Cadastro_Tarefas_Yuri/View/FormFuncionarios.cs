@@ -29,7 +29,7 @@ namespace Cadastro_Tarefas_Yuri.View
             tabelaFuncionarios.Columns.Add("Nome");
             tabelaFuncionarios.Columns.Add("Cargo");
             tabelaFuncionarios.Columns.Add("Email");
-            tabelaFuncionarios.Columns.Add("ID");
+            tabelaFuncionarios.Columns.Add("Matrícula");
             dataGridViewTabelaFuncionario.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
@@ -84,14 +84,22 @@ namespace Cadastro_Tarefas_Yuri.View
 
         private void telaInicialToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //FormMenu menu = new FormMenu();
-            //menu.Show();
         }
 
         private void cadastrarTarefasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //Form1 tarefas = new Form1();
-            //tarefas.Show();
+        }
+
+        private void telaInicialToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FormMenu formMenu_Funcionarios = new FormMenu();
+            formMenu_Funcionarios.Show();
+        }
+
+        private void cadastrarTarefasToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Form1 formTarefas_Funcionarios = new Form1();
+            formTarefas_Funcionarios.Show();
         }
     }
 }

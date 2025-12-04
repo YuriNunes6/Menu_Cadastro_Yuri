@@ -49,27 +49,28 @@
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(834, 70);
+            this.btnCadastrar.BackColor = System.Drawing.Color.Lime;
+            this.btnCadastrar.Location = new System.Drawing.Point(834, 97);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(75, 30);
+            this.btnCadastrar.Size = new System.Drawing.Size(75, 37);
             this.btnCadastrar.TabIndex = 0;
             this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // dataGridViewTabelaFuncionario
             // 
             this.dataGridViewTabelaFuncionario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewTabelaFuncionario.Location = new System.Drawing.Point(12, 111);
+            this.dataGridViewTabelaFuncionario.Location = new System.Drawing.Point(12, 140);
             this.dataGridViewTabelaFuncionario.Name = "dataGridViewTabelaFuncionario";
-            this.dataGridViewTabelaFuncionario.Size = new System.Drawing.Size(897, 194);
+            this.dataGridViewTabelaFuncionario.Size = new System.Drawing.Size(897, 203);
             this.dataGridViewTabelaFuncionario.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(262, 9);
+            this.label1.Location = new System.Drawing.Point(262, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(436, 56);
             this.label1.TabIndex = 2;
@@ -78,30 +79,32 @@
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(14, 77);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(93, 90);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 23);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Nome:";
+            this.label2.Text = "Nome";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtNomeFuncionario
             // 
-            this.txtNomeFuncionario.Location = new System.Drawing.Point(52, 80);
+            this.txtNomeFuncionario.Location = new System.Drawing.Point(52, 113);
             this.txtNomeFuncionario.Name = "txtNomeFuncionario";
             this.txtNomeFuncionario.Size = new System.Drawing.Size(124, 20);
             this.txtNomeFuncionario.TabIndex = 4;
             // 
             // txtEmailFuncionario
             // 
-            this.txtEmailFuncionario.Location = new System.Drawing.Point(269, 80);
+            this.txtEmailFuncionario.Location = new System.Drawing.Point(269, 113);
             this.txtEmailFuncionario.Name = "txtEmailFuncionario";
             this.txtEmailFuncionario.Size = new System.Drawing.Size(124, 20);
             this.txtEmailFuncionario.TabIndex = 6;
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(231, 78);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(311, 90);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 23);
             this.label3.TabIndex = 5;
@@ -110,7 +113,8 @@
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(471, 77);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(543, 87);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 23);
             this.label4.TabIndex = 7;
@@ -126,23 +130,24 @@
             "Analista",
             "Gerente",
             "Diretor"});
-            this.comboBoxCargoFuncionario.Location = new System.Drawing.Point(508, 78);
+            this.comboBoxCargoFuncionario.Location = new System.Drawing.Point(508, 113);
             this.comboBoxCargoFuncionario.Name = "comboBoxCargoFuncionario";
             this.comboBoxCargoFuncionario.Size = new System.Drawing.Size(121, 21);
             this.comboBoxCargoFuncionario.TabIndex = 8;
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(670, 77);
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(722, 90);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 23);
+            this.label5.Size = new System.Drawing.Size(55, 23);
             this.label5.TabIndex = 9;
-            this.label5.Text = "ID";
+            this.label5.Text = "Matrícula";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtIDFuncionario
             // 
-            this.txtIDFuncionario.Location = new System.Drawing.Point(690, 78);
+            this.txtIDFuncionario.Location = new System.Drawing.Point(690, 114);
             this.txtIDFuncionario.Name = "txtIDFuncionario";
             this.txtIDFuncionario.Size = new System.Drawing.Size(124, 20);
             this.txtIDFuncionario.TabIndex = 10;
@@ -165,21 +170,20 @@
             this.opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
             this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.opçõesToolStripMenuItem.Text = "Opções";
-            this.opçõesToolStripMenuItem.Click += new System.EventHandler(this.opçõesToolStripMenuItem_Click);
             // 
             // telaInicialToolStripMenuItem
             // 
             this.telaInicialToolStripMenuItem.Name = "telaInicialToolStripMenuItem";
             this.telaInicialToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.telaInicialToolStripMenuItem.Text = "Tela Inicial";
-            this.telaInicialToolStripMenuItem.Click += new System.EventHandler(this.telaInicialToolStripMenuItem_Click);
+            this.telaInicialToolStripMenuItem.Click += new System.EventHandler(this.telaInicialToolStripMenuItem_Click_1);
             // 
             // cadastrarTarefasToolStripMenuItem
             // 
             this.cadastrarTarefasToolStripMenuItem.Name = "cadastrarTarefasToolStripMenuItem";
             this.cadastrarTarefasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cadastrarTarefasToolStripMenuItem.Text = "Cadastrar tarefas";
-            this.cadastrarTarefasToolStripMenuItem.Click += new System.EventHandler(this.cadastrarTarefasToolStripMenuItem_Click);
+            this.cadastrarTarefasToolStripMenuItem.Click += new System.EventHandler(this.cadastrarTarefasToolStripMenuItem_Click_1);
             // 
             // FormFuncionarios
             // 
@@ -199,7 +203,6 @@
             this.Controls.Add(this.dataGridViewTabelaFuncionario);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormFuncionarios";
             this.Text = "FormFuncionarios";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTabelaFuncionario)).EndInit();

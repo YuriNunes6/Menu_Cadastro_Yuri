@@ -30,7 +30,6 @@ namespace Cadastro_Tarefas_Yuri
             tabelaTarefas.Columns.Add("Nome da Tarefa");
             tabelaTarefas.Columns.Add("Status");
             tabelaTarefas.Columns.Add("Data");
-            tabelaTarefas.Columns.Add("Nome do Funcionário");
             dataGridViewTarefas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
@@ -39,18 +38,6 @@ namespace Cadastro_Tarefas_Yuri
             string nomeTarefa = txtNomeTarefa.Text;
             string statusTarefa = boxStatusTarefa.Text;
             string dataTarefa = dateTimeTarefa.Text;
-            string nomeFuncionario = comboBoxFuncionarios.Text;
-            string cargoFuncionario = "";
-            string emailFuncionario = "";
-            int idFuncionario = 0;
-            controllerFuncionarios.cadastroFuncionarios(nomeFuncionario, cargoFuncionario, emailFuncionario, idFuncionario);
-            var listagemFuncionarios = controllerFuncionarios.listarFuncionarios();
-
-
-            foreach (var item in listagemFuncionarios)
-            {
-                comboBoxFuncionarios.Items.Add(item.nomeFuncionario);
-            }
 
 
             if (string.IsNullOrEmpty(nomeTarefa))
@@ -96,14 +83,22 @@ namespace Cadastro_Tarefas_Yuri
 
         private void telaInicialToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //FormMenu menu = new FormMenu();
-            //menu.Show(this);
         }
 
         private void cadastrarFuncionáriosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //FormFuncionarios funcionarios = new FormFuncionarios();
-            //funcionarios.Show();
+        }
+
+        private void telaInicialToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FormMenu formMenu_Tarefas = new FormMenu();
+            formMenu_Tarefas.Show();
+        }
+
+        private void cadastrarFuncionariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormFuncionarios formFuncionarios_Tarefas = new FormFuncionarios();
+            formFuncionarios_Tarefas.Show();
         }
     }
 }
